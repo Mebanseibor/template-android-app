@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">TemplateApplication</string>
+    <string name="app_name">App Name</string>
+    <string name="app_slogan">App Slogan</string>
 </resources>
