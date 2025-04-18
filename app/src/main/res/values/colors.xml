@@ -3,6 +3,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="themePrimary">#FF4286f4</color>
-    <color name="themeSecondary">#FF373B44</color>
+    <color name="themePrimary">#FF2193b0</color>
+    <color name="themeSecondary">#FF6dd5ed</color>
 </resources>

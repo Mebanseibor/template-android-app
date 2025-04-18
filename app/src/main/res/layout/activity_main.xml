@@ -9,10 +9,10 @@
     android:gravity="center"
     >
 
-    <androidx.appcompat.widget.Toolbar
+    <com.example.templateapplication.toolbar.MainToolBar
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:background="@drawable/gradient_primary_to_secondary"
+        android:layout_height="80dp"
         />
 
     <TextView
