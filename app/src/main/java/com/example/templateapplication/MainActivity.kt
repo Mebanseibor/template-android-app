@@ -1,13 +1,10 @@
 package com.example.templateapplication
 
 import android.os.Bundle
-import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
+import com.example.templateapplication.toast.displayResult
 import com.example.templateapplication.toolbar.MainToolBar
 
 class MainActivity : AppCompatActivity() {
@@ -21,6 +18,9 @@ class MainActivity : AppCompatActivity() {
         initViews()
 
         initToolBar()
+
+        displayResult(this, true, "Login Successful")
+        displayResult(this, false, "Can't fetch user data")
     }
 
     private fun initViews(){

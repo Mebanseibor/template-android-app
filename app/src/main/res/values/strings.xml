@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">App Name</string>
     <string name="app_slogan">App Slogan</string>
+
+    <string name="success">Success</string>
+    <string name="failure">failure</string>
 </resources>

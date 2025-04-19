@@ -5,4 +5,7 @@
 
     <color name="themePrimary">#FF2193b0</color>
     <color name="themeSecondary">#FF6dd5ed</color>
+
+    <color name="success">#FF4CAF50</color>
+    <color name="failure">#FFEF5350</color>
 </resources>
