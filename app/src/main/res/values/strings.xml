@@ -3,5 +3,11 @@
     <string name="app_slogan">App Slogan</string>
 
     <string name="success">Success</string>
-    <string name="failure">failure</string>
+    <string name="failure">Failure</string>
+
+    <string name="enter_your_email">Enter your email</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter_your_username">Enter your username</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="signin">Sign-in</string>
 </resources>

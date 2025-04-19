@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/gradient_primary_to_secondary"
+    >
+
+    <include
+        android:id="@+id/layout_titleAndSubtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/layout_title_and_subtitle"
+        android:layout_marginVertical="20sp"
+        />
+
+    <LinearLayout
+        android:id="@+id/inputsCtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:paddingHorizontal="40sp"
+        >
+
+        <include
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/layout_input_text"
+            />
+
+        <include
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/layout_input_text"
+            android:layout_marginTop="16dp"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSignin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/signin"
+        android:backgroundTint="@color/success"
+        android:layout_marginVertical="16dp"
+        android:paddingHorizontal="96dp"
+        />
+
+</LinearLayout>

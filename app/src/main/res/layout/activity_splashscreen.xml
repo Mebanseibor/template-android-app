@@ -19,24 +19,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         >
 
-        <TextView
-            android:id="@+id/appName"
+        <include
+            android:id="@+id/ctn_titleAndSubTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/app_name"
-            android:textSize="24dp"
-            android:textStyle="bold"
-            android:textAlignment="center"
-            />
-
-        <TextView
-            android:id="@+id/appSlogan"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/app_slogan"
-            android:textSize="20dp"
-            android:textStyle="italic"
-            android:textAlignment="center"
+            layout="@layout/layout_title_and_subtitle"
             />
 
     </LinearLayout>
